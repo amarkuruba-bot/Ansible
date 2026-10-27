@@ -1,0 +1,21 @@
+<student>
+	<firstname>Amarnath</firstname>
+	<lastname>Kuruba</lastname>
+	<dob>01031982</dob>
+	<addresses>
+		<address type="permanent1">
+			<doorNo>F1</doorNo>
+			<block>B Block</block>
+			<streetname>Sai</streetname>
+			<city>Bangalore</city>
+			<state>Karnataka</state>
+		</address>
+		<address type="permanent2">
+			<doorNo>F1</doorNo>
+			<block>B Block</block>
+			<streetname>Sai</streetname>
+			<city>Anantapur</city>
+			<state>Andhrapradesh</state>
+		</address>
+	</addresses>
+</student>

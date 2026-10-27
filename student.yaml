@@ -1,0 +1,38 @@
+- first_name : "Amarnath Kuruab"
+  lastname : "Kuruba"
+  dob : "01-03-1982"
+  # - is for list
+  addresses :
+    - type : "Permanent"
+      doorno: "F1"
+      streatname: "Electonicscity"
+      city : "Bangalore"
+    - type : "Curremt"
+      doorno: "F1"
+      streatname: "Electonicscity"
+      city : "Bangalore"
+      skills:
+        OS : "linux"
+        IDE : "VSCODE"
+        CM  : "Ansible"
+
+- first_name : "Srilata Kuruab"
+  lastname : "Kuruba"
+  dob : "01-03-1982"
+  # - is for list
+  addresses :
+    - type : "Permanent"
+      doorno: "F1"
+      streatname: "Electonicscity"
+      city : "Bangalore"
+    - type : "Curremt"
+      doorno: "F1"
+      streatname: "Electonicscity"
+      city : "Bangalore"
+      skills:
+        OS : "linux"
+        IDE : "VSCODE"
+        CM  : "Ansible"        
+
+
+

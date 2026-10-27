@@ -1,0 +1,22 @@
+{
+  "firstname": "Amarnath",
+  "lastname": "Kuruba",
+  "dob": "01-03-1982",
+  "addresses": [
+    {
+      "type": "Present",
+      "doorno": "F1",
+      "state": "karnataka"
+    },
+    {
+      "type": "Native",
+      "doorno": "F1",
+      "state": "karnataka"
+    }
+  ],
+  "skills": {
+    "OS": "Linux",
+    "IDE": "VSCODE",
+    "CM": "Ansible"
+  }
+}
