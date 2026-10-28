@@ -6,10 +6,10 @@
   tasks:
   - name: print the vars
     bebug:
-      msg: "Hi, I got {{Property}} from my fater"
+      msg: "Hi, I got {{property}} from my fater"
 
   - name: print the vars again
     vars:
       property: "10 acres"
     bebug:
-      msg: "Hi, I got {{Property}} from my fater"
+      msg: "Hi, I got {{property}} from my fater"
