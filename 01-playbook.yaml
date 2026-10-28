@@ -3,4 +3,4 @@
   #connection: 172.31.17.35 - ansible-user=ec2-user -e ansible-password=DevOps321 -m ping   # it will not expect credentials as you are targetting local host
   tasks: # tasks == modules == collections 
   - name: ping 172.31.17.35
-    ping: 172.31.17.35
+    ping:
