@@ -3,5 +3,5 @@
   connection: local
   Tasks:
   - name: print Hello World
-     ansible.builtin.debug: 
+    ansible.builtin.debug: 
        msg: "Hello DevSecOps expert Amar"
