@@ -1,0 +1,7 @@
+- name: demo on Debug # debug is the module name to print the message 
+  hosts: local 
+  connection: local
+  Tasks:
+  - name: print Hello World
+    ansible.builtin.debug: 
+      msg: "Hello DevSecOps expert Amar"
