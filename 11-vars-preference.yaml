@@ -12,4 +12,4 @@
   tasks: 
   - name: print course information 
     debug:
-     msg: "Hi, I am learning {{course}} from {{trainer}}, and duration is {{duration}}"
+     msg: "Hi, I am learning {{course}}""
