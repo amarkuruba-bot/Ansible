@@ -1,0 +1,15 @@
+- name: variables from inventory
+  hosts: frontend
+  connection: local
+  vars:
+    course: "ansible from play"
+  vars_prompt:
+  - name: course
+    prompt: please enter your course
+    private: false
+  vars_fies:
+  - course.yaml
+  tasks: 
+  - name: print course information 
+    debug:
+     msg: "Hi, I am learning {{course}} from {{trainer}}, and duration is {{duration}}"
