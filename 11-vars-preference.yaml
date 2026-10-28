@@ -11,3 +11,7 @@
   - name: print course information 
     debug:
      msg: "Hi, I am learning {{course}}"
+
+# 1. CMD
+# 2. Task
+#
