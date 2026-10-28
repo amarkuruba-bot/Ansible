@@ -1,7 +1,7 @@
 - name: demo2
   hosts: local 
   connection: local
-  Tasks:
+  tasks:
   - name: print Hello World
     ansible.builtin.debug: 
        msg: "Hello DevSecOps expert Amar"
