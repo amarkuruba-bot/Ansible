@@ -3,4 +3,4 @@
   connection: local  # it will not expect credentials as you are targetting local host
   tasks: # tasks == modules == collections 
   - name: ping localhost
-    #ping: 
+    ping: 
