@@ -7,8 +7,8 @@
   #   private: false
   # vars_files:
   # - course.yaml
-  tasks: 
-  - name: print course information 
+  # tasks: 
+  # - name: print course information 
     # vars:
     #   course: "ansible from task"
     debug:
