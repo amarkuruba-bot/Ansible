@@ -4,11 +4,11 @@
   vars:
     property: "100 acres"
   tasks:
-  - name: Print the vars
+  - name: print the vars
     bebug:
       msg: "Hi, I got {{Property}} from my fater"
 
-  - name: Print the vars again
+  - name: print the vars again
     vars:
       property: "10 acres"
     bebug:
