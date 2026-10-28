@@ -1,0 +1,8 @@
+- name: install and start inginx
+  hosts: frontend
+  tasks:
+  - name: install nginx
+    package:
+      name: inginx
+      state: present
+      
