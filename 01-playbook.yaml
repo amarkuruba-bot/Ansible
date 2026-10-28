@@ -1,4 +1,4 @@
-- name: ping demo
+- name: ping 
   hosts: local #target ansible server itself
   connection: local  # it will not expect credentials as you are targetting local host
   tasks: # tasks == modules == collections 
