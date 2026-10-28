@@ -1,12 +1,12 @@
 - name: variables from inventory
   hosts: frontend
   connection: local
-  vars_prompt:
-  - name: course
-    prompt: please enter your course
-    private: false
-  vars_files:
-  - course.yaml
+  # vars_prompt:
+  # - name: course
+  #   prompt: please enter your course
+  #   private: false
+  # vars_files:
+  # - course.yaml
   tasks: 
   - name: print course information 
     # vars:
@@ -17,3 +17,4 @@
 # 1. CMD
 # 2. Task
 # 3. file 
+# 4. prompt
