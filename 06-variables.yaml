@@ -1,0 +1,15 @@
+- name: demo on task level variables
+  hosts: local
+  connection: local
+  vars:
+    property: "100 acres"
+  tasks:
+  - name: Print the vars
+    bebug:
+      msg: "Hi, I got {{Property}} from my fater"
+
+  - name: Print the vars again
+    vars:
+      property: "10 acres"
+    bebug:
+      msg: "Hi, I got {{Property}} from my fater"
