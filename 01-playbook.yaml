@@ -1,6 +1,6 @@
 - name: ping Demo
   hosts: frontend  #target ansible server itself
-  connection: 172.31.17.35 -e ansible_user=ec2-user -e ansible_password=DevOps321 -m ping   # it will not expect credentials as you are targetting local host
+  connection: ansible all -i 172.31.17.35 -e ansible_user=ec2-user -e ansible_password=DevOps321 -m ping   # it will not expect credentials as you are targetting local host
   tasks: # tasks == modules == collections 
   - name: ping 172.31.17.35
     ping:
