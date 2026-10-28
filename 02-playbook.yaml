@@ -1,4 +1,4 @@
-- name: demo2 # debug is the module name to print the message 
+- name: demo2
   hosts: local 
   connection: local
   Tasks:
