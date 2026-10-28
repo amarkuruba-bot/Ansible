@@ -1,6 +1,6 @@
 - name: ping Demo
   hosts: frontend  #target ansible server itself
-  connection: 172.31.17.35 # it will not expect credentials as you are targetting local host
+  connection: ssh  # it will not expect credentials as you are targetting local host
   tasks: # tasks == modules == collections 
   - name: ping 172.31.17.35
     ping:
