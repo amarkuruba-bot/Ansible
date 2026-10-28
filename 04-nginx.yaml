@@ -1,8 +1,8 @@
 - name: install and start inginx
   hosts: frontend
+  become: yes #Providing sudo access or root access
   tasks:
   - name: install nginx
     package:
       name: inginx
       state: present
-      
