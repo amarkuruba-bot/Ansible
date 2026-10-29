@@ -2,15 +2,15 @@
   hosts: local
   connection: local
   vars:
-    course: "AI Ops with DevOps on AWS" #string
-    duration_in_hours: 150 #number or intiger
-    is_live_session: true #boolean
-    topics: #list
+    course: "AI Ops with DevOps on AWS" # string
+    duration_in_hours: 150 # number or intiger
+    is_live_session: true # boolean
+    topics: # list
     - linux
     - shell
     - terraform
     - Ansible
-    more_details: #dictionary/map
+    more_details: # dictionary/map
       trainer: Sivakumar
       months: 4
     exact_duration_in_months:  4.5 
