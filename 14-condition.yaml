@@ -7,9 +7,9 @@
   - name: is even 
     debug:
       msg: "Given number: {{ given_number }} is even"
-    when: given_number % 2 == 0
+    when: given_number % 2 == 0 # expression
 
   - name: is odd
     debug:
-    msg: "Given number: {{ given_number }} is odd"
-    when: given_number % 2 != 0 
+       msg: "Given number: {{ given_number }} is odd"
+    when: given_number % 2 != 0 # expression
