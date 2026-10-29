@@ -13,7 +13,7 @@
     more_details: #dictionary/map
       trainer: Sivakumar
       months: 4
-      exact_duration_in_months: 4.5 
+    exact_duration_in_months: 4.5 
   tasks:
   - name: print info and type 
     debug:
@@ -23,4 +23,4 @@
         is live:  "{{is_live_session}} : {{is_live_session | type_debug}}"
         topics are: "{{topics}} : {{topics | type_debug}}"
         more details: "{{more_details}} : {{more_details | type_debug}}"
-        # duration: "{{exact_duration_in_months}} : {{exact_duration_in_months | type_debug}}" 
+        duration: "{{exact_duration_in_months}} : {{exact_duration_in_months | type_debug}}" 
