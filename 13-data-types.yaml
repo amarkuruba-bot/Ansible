@@ -17,7 +17,7 @@
   tasks:
   - name: print info and type 
     debug:
-      msg: |
+      msg: 
         name: {{ course }} : {{ course | type_debug }} 
         duration : {{ duration_in_hours }} : {{ duration_in_hours | type_debug }} 
         is live : {{ is_live_session }} : {{ is_live_session | type_debug }} 
