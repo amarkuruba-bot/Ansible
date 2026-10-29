@@ -11,5 +11,5 @@
 
   - name: is odd
     debug:
-       msg: "Given number: {{ given_number }} is odd"
+      msg: "Given number: {{ given_number }} is odd"
     when: given_number % 2 != 0 # expression
