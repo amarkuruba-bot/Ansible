@@ -4,12 +4,12 @@
   vars: 
     given_number: 10
   taks:
-  -name: is even 
+  - name: is even 
     debug:
       msg: "Given number: {{ given_number}}" is even
     when: given_number % 2 == 0
 
-  -name: 
+  - name: 
     debug: is odd
-      msg: "Given number: {{ given_number}}" is odd
+    msg: "Given number: {{ given_number}}" is odd
     when: given_number % 2 != 0 
