@@ -20,7 +20,7 @@
       msg: |
       name: "{{course}} : {{course | type_debug}}"
     debug:
-        msg:
+        msg: |
          duration : "{{duration_in_hours}} : {{duration_in_hours | type_debug}}"
     
         msg: |
