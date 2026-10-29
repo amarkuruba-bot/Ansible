@@ -13,14 +13,14 @@
     more_details: #dictionary/map
       trainer: Sivakumar
       months: 4
-    exact_duration_in_months: 4.5 
+    exact_duration_in_months:  4.5 
   tasks:
   - name: print info and type 
     debug:
       msg: |
-       name: {{ course }} : {{ course | type_debug }}
-       duration : {{ duration_in_hours }} : {{ duration_in_hours | type_debug }}
-       is live : {{ is_live_session }} : {{ is_live_session | type_debug }}
-       topics : {{ topics }} : {{ topics | type_debug }}
-       more details : {{ more_details }} : {{ more_details | type_debug }}
-       duration months : {{ exact_duration_in_months }} : {{ exact_duration_in_months | type_debug }}
+       name: "{{ course }} : {{ course | type_debug }} "
+       duration : {{ duration_in_hours }} : {{ duration_in_hours | type_debug }} "
+       is live : {{ is_live_session }} : {{ is_live_session | type_debug }} "
+       topics : {{ topics }} : {{ topics | type_debug }} "
+       more details : {{ more_details }} : {{ more_details | type_debug }} "
+       duration months : {{ exact_duration_in_months }} : {{ exact_duration_in_months | type_debug }} "
