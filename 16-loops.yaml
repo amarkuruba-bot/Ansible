@@ -4,8 +4,8 @@
   tasks:
   - name: print names
     debug:
-      msg: "Hi {{ item}}"
+      msg: "Hi {{ item }}"
     loop:
-        - john
+    - john
     - Amar
     - Srilata
